@@ -31,8 +31,24 @@
 #leadForm{display:grid;gap:8px}#leadForm label{font-weight:700;font-size:14px;margin-top:8px}#leadForm input:not([type=checkbox]),#leadForm select,#leadForm textarea{width:100%;border:1px solid #c8cdd0;border-radius:7px;padding:12px;background:#fff;color:#162739;font:inherit;font-size:15px}#leadForm .consent{display:flex;gap:9px;align-items:start;font-weight:500;font-size:12px;color:var(--muted)}#leadForm .consent input{margin-top:6px}.formhint{font-size:12px!important;margin:0!important}.urgent{border-left:3px solid var(--accent);margin-top:35px;padding:6px 0 8px 20px}.urgent strong{font-size:17px}.urgent p{font-size:14px;margin:8px 0}.urgent a{color:#335d79;font-weight:800;font-size:14px}
 @media(max-width:1080px){.metrics{grid-template-columns:repeat(2,1fr)}.format-grid{grid-template-columns:1fr}nav{gap:17px}nav a{font-size:13px}}
 @media(max-width:780px){.metrics{grid-template-columns:1fr 1fr}.metric{padding:20px 15px}.metric strong{font-size:25px}}
+
+/* BORA 2.4: alternating dark closing section */
+#contact.dark{background:var(--navy);color:#fff;border-top:1px solid #294358}
+#contact.dark .section-head h2{color:#fff}
+#contact.dark .section-text{color:#bccbd5}
+#contact.dark .kicker{color:var(--accent-2)}
+#contact.dark .contact-card{background:#162d3e;color:#fff;border:1px solid #355065;box-shadow:none}
+#contact.dark .contact-card h3{color:#fff}
+#contact.dark .contact-card p{color:#bbcad4}
+#contact.dark .contact-list a,#contact.dark .urgent a{color:var(--accent-2)}
+#contact.dark .urgent{border-left-color:var(--accent)}
+#contact.dark #leadForm label{color:#edf3f5}
+#contact.dark #leadForm .consent{color:#c3d1d8}
+#contact.dark .formhint{color:#b3c2cc}
+#contact.dark #leadForm .btn.primary{background:var(--accent-2);color:#152432}
+
 </style>
-  <!-- BORA 2.3: corrected structure and full-resolution externally hosted photographs -->
+  <!-- BORA 2.4: dark contact section, original desk photo without calculator -->
 </head>
 <body>
   <div class="topnote">Концепция обновлённого сайта BORA — демонстрационная версия</div>
@@ -40,7 +56,7 @@
   <main id="top">
     <section class="hero" style="border-top:none"><div class="wrap hero-grid"><div><div class="eyebrow">Правовая защита строительного бизнеса</div><h1>Контракты под контролем.<br><span class="accent">Интересы — под защитой.</span></h1><p class="lead">Юридическое сопровождение генподрядчиков, субподрядчиков и участников закупок по 44-ФЗ и 223-ФЗ — от анализа условий до защиты интересов в спорных ситуациях.</p><div class="hero-actions"><a class="btn primary" href="#contact">Обсудить контракт ↗</a><a class="btn secondary" href="#services">Направления работы ↓</a></div><div class="hero-visual"><div class="hero-card"><img src="https://images.unsplash.com/photo-1745015446589-7ee6f702d8c1?auto=format&amp;fit=crop&amp;w=1300&amp;q=85" alt="Современный офисный фасад"></div><div class="hero-badge"><strong>Фокус BORA</strong><p>Строительные контракты, закупки, расчёты, приёмка и защита интересов подрядчика.</p></div></div></div></section>
     <section id="services"><div class="wrap"><div class="section-head"><div><div class="kicker">01 / Компетенции</div><h2>Правовая поддержка строительных проектов</h2></div><p class="section-text">Сопровождаем договорную работу, закупки и споры с учётом условий проекта, сроков и финансовых обязательств.</p></div><div class="cards"><article class="card"><span class="num">01</span><h3>Строительные контракты</h3><p>Подряд и субподряд, изменение объёмов и цены, дополнительные работы, КС-2 / КС-3, приёмка, расчёты и претензии.</p><a class="link" href="#contact">Обсудить контракт ↗</a></article><article class="card"><span class="num">02</span><h3>Закупки по 44-ФЗ и 223-ФЗ</h3><p>Анализ закупочной документации, подготовка заявки, сопровождение процедуры, обжалование и исполнение контракта.</p><a class="link" href="#contact">Разобрать закупку ↗</a></article><article class="card"><span class="num">03</span><h3>Споры и защита интересов</h3><p>Взыскание задолженности, неустойки, разногласия по объёмам и качеству работ, претензионная работа и арбитраж.</p><a class="link" href="#contact">Обсудить спор ↗</a></article></div></div></section>
-    <section class="dark" id="approach"><div class="wrap value-grid"><div class="value-copy"><div class="kicker">02 / Подход</div><p class="statement">Защищаем <span class="accent">интересы подрядчика</span> на всех этапах строительного контракта.</p><p class="muted">Сопровождение выстраивается до подписания, в ходе исполнения и при возникновении разногласий. Формат работы определяется после оценки документов и задач компании.</p></div><div class="value-image"><img src="https://images.unsplash.com/photo-1608303588026-884930af2559?auto=format&amp;fit=crop&amp;w=1300&amp;q=85" alt="Документы и чертежи на рабочем столе"></div></div></section>
+    <section class="dark" id="approach"><div class="wrap value-grid"><div class="value-copy"><div class="kicker">02 / Подход</div><p class="statement">Защищаем <span class="accent">интересы подрядчика</span> на всех этапах строительного контракта.</p><p class="muted">Сопровождение выстраивается до подписания, в ходе исполнения и при возникновении разногласий. Формат работы определяется после оценки документов и задач компании.</p></div><div class="value-image"><img src="assets/contracts-no-calculator.png" alt="Документы и чертежи на рабочем столе"></div></div></section>
     <section id="situations"><div class="wrap"><div class="section-head"><div><div class="kicker">03 / Ситуации</div><h2>Когда стоит обратиться</h2></div><p class="section-text">Типовые задачи подрядчика и участника закупки, которые требуют своевременной юридической оценки.</p></div><div class="problems"><article class="problem"><b>01</b><div><h3>Контракт содержит спорные условия</h3><p>Сроки, санкции, приёмка, ответственность и порядок оплаты требуют анализа до подписания.</p></div></article><article class="problem"><b>02</b><div><h3>Заказчик задерживает оплату</h3><p>Нужно определить правовую позицию, собрать доказательства и выбрать претензионную или судебную стратегию.</p></div></article><article class="problem"><b>03</b><div><h3>Возникли дополнительные работы</h3><p>Важно корректно оформить изменение объёмов и стоимости, чтобы снизить риск неоплаты.</p></div></article><article class="problem"><b>04</b><div><h3>Отклонили заявку на закупку</h3><p>Требуется оперативно оценить протокол, основания отклонения и предусмотренные законом способы обжалования.</p></div></article></div></div></section>
     <section class="dark" id="process"><div class="wrap"><div class="section-head"><div><div class="kicker">04 / Процесс</div><h2>Понятный порядок работы</h2></div><p class="section-text">Задача, оценка, согласование формата и дальнейшее сопровождение.</p></div><div class="process-grid"><article class="process-card"><span class="num">01</span><h3>Входная задача</h3><p>Вы описываете ситуацию и передаёте необходимые материалы согласованным способом.</p></article><article class="process-card"><span class="num">02</span><h3>Оценка рисков</h3><p>Определяются ключевые правовые вопросы, срочность и возможные действия.</p></article><article class="process-card"><span class="num">03</span><h3>Формат работы</h3><p>Разовая экспертиза, сопровождение проекта либо абонентская поддержка.</p></article><article class="process-card"><span class="num">04</span><h3>Реализация</h3><p>Работа с документами, переговорами и процедурами в согласованных пределах.</p></article></div></div></section>
     <section id="experience"><div class="wrap">
@@ -70,7 +86,7 @@
 <details><summary>Гарантируете ли вы победу в закупке или суде?</summary><p>Нет. Результат зависит от обстоятельств, действий участников и правовой оценки. Юридическое сопровождение направлено на снижение рисков и защиту законных интересов.</p></details>
 <details><summary>Как определяется стоимость?</summary><p>По объёму документов, сложности вопроса, срочности и выбранному формату: разовая экспертиза, проектное или абонентское сопровождение.</p></details>
 </div></div></section>
-<section id="contact"><div class="wrap">
+<section class="dark" id="contact"><div class="wrap">
 <div class="section-head"><div><div class="kicker">08 / Контакт</div><h2>Обсудим вашу правовую задачу</h2></div><p class="section-text">Выберите направление и оставьте данные для обращения. В демо письмо открывается в вашей почтовой программе.</p></div>
 <div class="contact-box">
 <div class="contact-card"><h3>Контакты BORA</h3><p>Санкт-Петербург. Строительные контракты, закупки, претензии и споры.</p><div class="contact-list"><a href="mailto:npo.bora@gmail.com">npo.bora@gmail.com ↗</a><a href="tel:+79117724444">+7 911 772-44-44</a></div>
